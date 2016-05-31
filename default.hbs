@@ -12,7 +12,6 @@
     <link rel="stylesheet" type="text/css" href="{{asset "css/prism.css"}}" />
     <script type="text/javascript" src="{{asset "js/prism.js"}}"></script>
 	
-{{! Page Meta }}
     <title>{{meta_title}}</title>
     <meta name="description" content="{{meta_description}}" />
 
@@ -23,8 +22,6 @@
     {{! Styles'n'Scripts }}
     <link rel="stylesheet" type="text/css" href="{{asset "highlighter/prettify.css"}}" />
     <link rel="stylesheet" type="text/css" href="{{asset "css/screen.css"}}" />
-<script src="https://google-code-prettify.googlecode.com/svn/loader/run_prettify.js"></script>  
-
     {{! Ghost outputs important style and meta data with this tag }}
     {{ghost_head}}
 
@@ -38,7 +35,6 @@
       ga('send', 'pageview');
 
     </script>
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/g/prism@1.5.0(themes/prism-okaidia.css+plugins/line-numbers/prism-line-numbers.css+plugins/ie8/prism-ie8.css+plugins/show-language/prism-show-language.css)">
 </head>
 <body class="{{body_class}}">
 
@@ -50,11 +46,14 @@
         <div class="inner">
              <section class="copyright">All content licensed under FDLv1.3. Copyright <a href="/">Kakise</a> &copy; {{date format="YYYY"}} &bull; All rights reserved.</section>
              <section class="poweredby">Proudly published with <a class="icon-ghost" href="http://ghost.org">Ghost</a>. Design based on <a href="https://github.com/mityalebedev/The-Shell">The Shell</a> theme.</section>
-        </div>
+</div>
     </footer>
 
     {{! Ghost outputs important scripts and data with this tag }}
     {{ghost_foot}}
 
+    {{! Scripts }}
+    <script type='text/javascript' src='/assets/css/prism.css'></script>
+    <script type='text/javascript' src='/assets/js/prism.js'></script>
 </body>
 </html>
