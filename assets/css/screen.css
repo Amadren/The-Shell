@@ -1119,13 +1119,8 @@ Copyright (c) 2012 Dan Eden
    height: 30px;
 }
 #nav {
-   padding: 5px;
    background-color: #5f6e8c;
-   position: relative;
    width:80%;
-   max-width: 700px;
-   margin: 4rem auto;
-   padding-bottom: 4rem;
    border-bottom: #424650 1px solid;
    word-break: break-word;
    hyphens: auto;
