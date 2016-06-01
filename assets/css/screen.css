@@ -1115,7 +1115,7 @@ Copyright (c) 2012 Dan Eden
    Honestly? Fuck off ^^
    ========================================================================== */
    
-#navWrap {
+#navWrap * {
    height: 38px;
    background-color: #32364a;
    border-bottom: #424650 1px solid;
