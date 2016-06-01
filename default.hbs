@@ -9,8 +9,6 @@
         //     g_id  = 'UA-XXXXXXXX-X', // Format: UA-########-#, Example: UA-11220899-1
         //     g_url = 'XXXXXXX.XXX' // Format: #####.####, Example: webdesignporto.com
     </script>
-    <link rel="stylesheet" type="text/css" href="{{asset "css/prism.css"}}" />
-    <script type="text/javascript" src="{{asset "js/prism.js"}}"></script>
 	
     <title>{{meta_title}}</title>
     <meta name="description" content="{{meta_description}}" />
@@ -20,7 +18,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     {{! Styles'n'Scripts }}
-    <link rel="stylesheet" type="text/css" href="{{asset "highlighter/prettify.css"}}" />
+    <script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js'></script>
+    <link rel="stylesheet" type="text/css" href="{{asset "css/prism.css"}}" />
+    <script type="text/javascript" src="{{asset "js/prism.js"}}"></script>
     <link rel="stylesheet" type="text/css" href="{{asset "css/screen.css"}}" />
     {{! Ghost outputs important style and meta data with this tag }}
     {{ghost_head}}
