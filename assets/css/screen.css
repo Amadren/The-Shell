@@ -1110,3 +1110,37 @@ Copyright (c) 2012 Dan Eden
    End of file. Media queries should be the last thing here. Do not add stuff
    below this point, or it will probably fuck everything up.
    ========================================================================== */
+   
+/* ==========================================================================
+   Honestly? Fuck off ^^
+   ========================================================================== */
+   
+#navWrap {
+   height: 30px;
+}
+#nav {
+   padding: 5px;
+   background: #999;    
+}
+#nav ul {
+   margin: 0;
+   padding: 0;    
+}
+#nav li {
+   float: left;
+   padding: 3px 8px;
+   background-color: #FFF;
+   margin: 0 10px 0 0;
+   color: #F00;
+   list-style-type: none;
+}
+#nav li a {
+   color: #F00;  
+   text-decoration: none;    
+}
+#nav li a:hover {
+   text-decoration: underline;   
+}
+br.clearLeft {
+   clear: left;        
+}​
