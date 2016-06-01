@@ -1114,7 +1114,7 @@ Copyright (c) 2012 Dan Eden
 /* ==========================================================================
    Honestly? Fuck off ^^
    ========================================================================== */
-#home-button {
+.home-button {
    border-radius: 4px 4px 4px 4px;
    -moz-border-radius: 4px 4px 4px 4px;
    -webkit-border-radius: 4px 4px 4px 4px;
