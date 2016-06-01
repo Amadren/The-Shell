@@ -1122,6 +1122,9 @@ Copyright (c) 2012 Dan Eden
    background-color: #32364a;
    padding: 7px;
 }
+.home-button a {
+   text-decoration: none;
+}
 #navWrap {
    height: 38px;
    background-color: #32364a;
