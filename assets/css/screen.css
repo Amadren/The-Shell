@@ -1120,10 +1120,7 @@ Copyright (c) 2012 Dan Eden
 }
 #nav {
    background-color: #5f6e8c;
-   width:80%;
    border-bottom: #424650 1px solid;
-   word-break: break-word;
-   hyphens: auto;
 }
 #nav ul {
    margin: 0;
