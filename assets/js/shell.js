@@ -1,6 +1,6 @@
 $(function() {
     // Stick the #nav to the top of the window
-    var nav = $('#nav');
+    var nav = $('#navWrap');
     var navHomeY = nav.offset().top;
     var isFixed = false;
     var $w = $(window);
