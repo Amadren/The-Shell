@@ -1126,6 +1126,7 @@ Copyright (c) 2012 Dan Eden
 #nav ul {
    margin: 0;
    padding: 0;    
+   text-align: center;
 }
 #nav li {
    float: left;
