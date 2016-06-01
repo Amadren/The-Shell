@@ -1116,11 +1116,10 @@ Copyright (c) 2012 Dan Eden
    ========================================================================== */
    
 #navWrap {
-   height: 30px;
-}
-#nav {
    background-color: #32364a;
    border-bottom: #424650 1px solid;
+}
+#nav {
    float:right;
    position:relative;
    left:-50%;
