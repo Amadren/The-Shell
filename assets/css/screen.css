@@ -1120,19 +1120,23 @@ Copyright (c) 2012 Dan Eden
 }
 #nav {
    background-color: #32364a;
-   text-align: center;
    border-bottom: #424650 1px solid;
+   float:right;
+   position:relative;
+   left:-50%;
+   text-align:left;
 }
 #nav ul {
    margin: 0;
    padding: 0;    
-   text-align: center;
+   list-style:none;
+   position:relative;
+   left:50%;
 }
 #nav li {
    float: left;
    padding: 3px 8px;
    margin: 0 10px 0 0;
-   text-align: center;
    list-style-type: none;
 }
 
