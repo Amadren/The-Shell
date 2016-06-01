@@ -1131,16 +1131,9 @@ Copyright (c) 2012 Dan Eden
    padding: 3px 8px;
    background-color: #FFF;
    margin: 0 10px 0 0;
-   color: #F00;
    list-style-type: none;
 }
-#nav li a {
-   color: #F00;  
-   text-decoration: none;    
-}
-#nav li a:hover {
-   text-decoration: underline;   
-}
+
 br.clearLeft {
    clear: left;        
 }​
