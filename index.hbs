@@ -13,18 +13,7 @@
             <h2 class="blog-description">{{@blog.description}}</h2>
         </div>
     </div>
-    <div id="navWrap">
-        <div id="nav">
-            <ul>
-            {{#foreach navigation}}
-                <li>
-                    <a href="{{url absolute="true"}}" class="smoothScroll">{{label}}</a>
-                </li>
-            {{/foreach}}
-            </ul>    
-            <br class="clearLeft" />
-        </div>
-    </div>
+    {{navigation}}
 </header>
 
 {{! The main content area on the homepage }}
