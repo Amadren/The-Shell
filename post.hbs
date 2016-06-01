@@ -16,8 +16,10 @@
                     {{@blog.title}}
                 {{/if}}
             </a>
-        </header>
-        {{navigation}}
+        </header></article>
+        {{navigation}}    
+        <article class="{{post_class}}">
+
         {{! Everything inside the #post tags pulls data from the post }}
         {{#post}}
 
