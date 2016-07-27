@@ -11,11 +11,12 @@ $(function() {
             /*navWrap.css({
               
             });*/
-            nav.css({
+            nav.css({
                 position: 'fixed',
                 top: 0,
-               left: 50%
-               });
+                left: '50%',
+                width: '100%'
+            });
             isFixed = true;
         }
         else if (!shouldBeFixed && isFixed)
