@@ -11,7 +11,7 @@ $(function() {
             /*navWrap.css({
               
             });*/
-            nav.css({
+            navWrap.css({
                 position: 'fixed',
                 top: 0,
                 left: '50%',
