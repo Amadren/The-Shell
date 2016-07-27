@@ -1,4 +1,4 @@
-$(function() {
+/*$(function() {
     // Stick the #nav to the top of the window
     var nav = $('#navWrap');
     var navHomeY = nav.offset().top;
@@ -24,4 +24,18 @@ $(function() {
             isFixed = false;
         }
     });
+});
+*/
+
+//TEST
+$(document).ready(function () {  
+  var top = $('#navWrap').offset().top - parseFloat($('#navWrap').css('marginTop').replace(/auto/, 100));
+  $(window).scroll(function (event) {
+    var y = $(this).scrollTop();
+    if (y >= top) {
+      $('#yourID').addClass('fixed');
+    } else {
+      $('#yourID').removeClass('fixed');
+    }
+  });
 });
