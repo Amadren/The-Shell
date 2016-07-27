@@ -14,7 +14,6 @@ $(function() {
             navWrap.css({
                 position: 'fixed',
                 top: 0,
-                left: '50%',
                 width: '100%'
             });
             isFixed = true;
