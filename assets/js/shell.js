@@ -8,9 +8,8 @@ $(function() {
         var scrollTop = $w.scrollTop();
         var shouldBeFixed = scrollTop > navHomeY;
         if (shouldBeFixed && !isFixed) {
-            nav.css({
-                });
-            navWrap.css({
+
+            nav.css({
                 position: 'fixed',
                 top: 0,
                 width: '100%'
@@ -19,7 +18,7 @@ $(function() {
         }
         else if (!shouldBeFixed && isFixed)
         {
-            navWrap.css({
+            nav.css({
                 position: 'static'
             });
             isFixed = false;
