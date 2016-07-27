@@ -12,7 +12,8 @@ $(function() {
             nav.css({
                 position: 'fixed',
                 top: 0,
-                width: '100%'
+                left: nav.offset().left,
+                width: nav.width()
             });
             isFixed = true;
         }
