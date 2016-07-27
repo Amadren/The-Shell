@@ -1,19 +1,15 @@
-/*$(function() {
+$(function() {
     // Stick the #nav to the top of the window
     var nav = $('#navWrap');
-    var navHomeY = nav.offset().top;
+    var navHomeY = $('#navWrap').offset().top - parseFloat($('#navWrap').css('marginTop').replace(/auto/, 100));
     var isFixed = false;
     var $w = $(window);
     $w.scroll(function() {
         var scrollTop = $w.scrollTop();
         var shouldBeFixed = scrollTop > navHomeY;
         if (shouldBeFixed && !isFixed) {
-            nav.css({
-                position: 'fixed',
-                top: 0,
-                left: nav.offset().left,
-                width: nav.width()
-            });
+            $('#navWrap').addClass('fixed');
+
             isFixed = true;
         }
         else if (!shouldBeFixed && isFixed)
@@ -25,7 +21,7 @@
         }
     });
 });
-*/
+/*
 
 //TEST
 $(document).ready(function () {  
@@ -39,3 +35,4 @@ $(document).ready(function () {
     }
   });
 });
+*/
