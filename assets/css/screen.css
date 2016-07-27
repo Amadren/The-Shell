@@ -1126,12 +1126,13 @@ Copyright (c) 2012 Dan Eden
 }
 #navWrap {
    height: 38px;
-   background-color: #32364a;
-   border-bottom: #424650 1px solid;
+
    width: 100%;
 }
 #nav {
    position:relative;
+      background-color: #32364a;
+   border-bottom: #424650 1px solid;
    text-align:left;
 }
 #nav ul {
