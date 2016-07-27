@@ -1131,9 +1131,7 @@ Copyright (c) 2012 Dan Eden
    width: 100%;
 }
 #nav {
-   float:right;
    position:relative;
-   left:-50%;
    text-align:left;
 }
 #nav ul {
