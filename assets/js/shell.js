@@ -33,9 +33,9 @@ $(document).ready(function () {
   $(window).scroll(function (event) {
     var y = $(this).scrollTop();
     if (y >= top) {
-      $('#yourID').addClass('fixed');
+      $('#navWrap').addClass('fixed');
     } else {
-      $('#yourID').removeClass('fixed');
+      $('#navWrap').removeClass('fixed');
     }
   });
 });
