@@ -1,4 +1,4 @@
-$(function() {
+/*$(function() {
     // Stick the #nav to the top of the window
     var nav = $('#navWrap');
     var navHomeY = $('#navWrap').offset().top - parseFloat($('#navWrap').css('marginTop').replace(/auto/, 100));
@@ -21,11 +21,11 @@ $(function() {
         }
     });
 });
-/*
+*/
 
 //TEST
 $(document).ready(function () {  
-  var top = $('#navWrap').offset().top - parseFloat($('#navWrap').css('marginTop').replace(/auto/, 100));
+  var top = $('#navWrap').offset().top;
   $(window).scroll(function (event) {
     var y = $(this).scrollTop();
     if (y >= top) {
@@ -35,4 +35,4 @@ $(document).ready(function () {
     }
   });
 });
-*/
+
