@@ -1132,6 +1132,16 @@ Copyright (c) 2012 Dan Eden
    border-bottom: #424650 1px solid;
    text-align:left;
 }
+.float_center {
+  float: right;
+  position: relative;
+  left: -50%; /* or right 50% */
+  text-align: left;
+}
+.float_center > .child {
+  position: relative;
+  left: 50%;
+}
 #nav ul {
    margin: 0;
    padding: 0;    
