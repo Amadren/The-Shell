@@ -1,5 +1,6 @@
 $(function() {
  var nav = $('#nav');
+ var navWrap = $('#navWrap');
     var navHomeY = nav.offset().top;
     var isFixed = false;
     var $w = $(window);
@@ -7,7 +8,7 @@ $(function() {
         var scrollTop = $w.scrollTop();
         var shouldBeFixed = scrollTop > navHomeY;
         if (shouldBeFixed && !isFixed) {
-            $('#navWrap').css({
+            navWrap.css({
               
             });
             nav.css({
