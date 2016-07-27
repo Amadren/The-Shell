@@ -7,12 +7,14 @@ $(function() {
         var scrollTop = $w.scrollTop();
         var shouldBeFixed = scrollTop > navHomeY;
         if (shouldBeFixed && !isFixed) {
+            $('#navWrap').css({
+              
+            });
             nav.css({
                 position: 'fixed',
                 top: 0,
-               left: nav.offset().left,
-                width: nav.width()
-            });
+               left: 50%
+               });
             isFixed = true;
         }
         else if (!shouldBeFixed && isFixed)
