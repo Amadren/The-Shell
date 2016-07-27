@@ -21,7 +21,7 @@ $(function() {
         }
         else if (!shouldBeFixed && isFixed)
         {
-            nav.css({
+            navWrap.css({
                 position: 'static'
             });
             isFixed = false;
