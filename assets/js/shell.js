@@ -8,9 +8,9 @@ $(function() {
         var scrollTop = $w.scrollTop();
         var shouldBeFixed = scrollTop > navHomeY;
         if (shouldBeFixed && !isFixed) {
-            /*navWrap.css({
-              
-            });*/
+            nav.css({
+                left: '50%',
+                });
             navWrap.css({
                 position: 'fixed',
                 top: 0,
